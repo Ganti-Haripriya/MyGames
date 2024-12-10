@@ -5,17 +5,17 @@ public class RockPaperScissor
     public static int rockpaperscissor(String player,String computer)
     {
 
-        if(player.equals("R") && computer.equals("P") ) return 0;
+        if(player.equals("R") && computer.equals("T") ) return 0;
 
-        else if(player.equals("P")  && computer.equals("R") ) return 1;
+        else if(player.equals("T")  && computer.equals("R") ) return 1;
 
         else if(player.equals("S")  && computer.equals("R") ) return 0;
 
         else if(player.equals("R")  && computer.equals("S") ) return 1;
 
-        else if(player.equals("S") && computer.equals("P") ) return 1;
+        else if(player.equals("S") && computer.equals("T") ) return 1;
 
-        else if(player.equals("P")  && computer.equals("S") ) return 0;
+        else if(player.equals("T")  && computer.equals("S") ) return 0;
 
         return -1;
 
